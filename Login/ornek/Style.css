@@ -1,0 +1,218 @@
+﻿body {
+}
+
+.MainBox {
+
+    margin-top: 20px;
+    width: 950px;
+    height:550px;
+    text-align: left;
+    background-color:#4800ff;
+    padding: 5px 5px 5px 5px;
+}
+
+.TopBox {
+     width: 950px;
+     height: 90px;
+     background-color: #808080;
+     margin-bottom: 5px;
+}
+
+.LeftBox {
+
+     width: 200px;
+     min-height: 300px;
+      float:left;
+     background-color: #56a1c7;
+     margin-left: 5px;
+}
+
+.buttonStyle {
+
+    height: 25px;
+    width: 107px;
+    margin-top: 10px;
+    margin-left: 5px;
+    color:white;
+    background-color:#0026ff;
+}
+
+.ContentBox {
+    width: 740px;
+      min-height: 300px;
+     background-color: white;
+      float:left;
+     margin-left: 5px;
+}
+
+.BottomBox {
+     width: 950px;
+     height: 150px;
+     
+     background-color: darkgray;
+     margin-top: 5px;
+       float:left;
+   
+}
+
+ul {
+    list-style: square;
+    margin-top: 10px;
+}
+
+li a{
+    text-decoration:none
+}
+
+li a.hover {
+    text-decoration:underline;
+}
+
+.resim {
+
+    width:400px;
+    height:250px;
+
+}
+
+
+
+
+
+.kullanici {
+
+    width:600px;
+    height: 100px;
+    background-color:darkgray;
+    margin-top: 10px;
+   
+}
+
+.txtBox {
+     margin-right:200px;
+    width:110px;
+    height: 25px;
+    background-color: white;
+}
+
+.label {
+     margin-right:20px;
+    width:110px;
+    height: 25px;
+    background-color: white;
+}
+
+.grid {
+    margin-left:100px;
+    padding: 10px,10px,10px,10px;
+}
+
+
+
+
+
+
+
+
+.solTaraf {
+         
+         width:285px;
+         height:auto;
+         background-color:white;
+         margin-top:45px;
+
+
+     }
+
+     .solTaraf .hizliKayit {
+         float:left;
+         width: 420px;
+         height: auto;
+         background-color: #808080;
+
+     }
+
+
+     .solTaraf .hizliKayit .ust {
+         float:left;
+         width: 100%;
+         line-height: 44px;
+         text-align:center;
+         height: 44px;
+         color: white;
+         border-bottom: 1px solid #ff0000;
+
+
+
+     }
+
+     .solTaraf .hizliKayit .alt {
+         float:left;
+         width: 250px;
+         padding: 17px;
+         height: auto;
+         border-bottom: 1px solid #ff0000;
+
+
+
+     }
+
+        .solTaraf .hizliKayit .alt .textbox {
+            width: 228px;
+            height: 18px;
+            margin-top:10px;
+            border: 1px solid #555;
+            padding: 15px;
+
+        }
+
+        .solTaraf .hizliKayit .alt .btnKayit {
+
+            float: left;
+            width: 100px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            cursor: pointer;
+            background-color: #0094ff;
+            color: white;
+            margin-top: 40px;
+        }
+
+         .solTaraf .hizliKayit .alt .btnKayit:hover {
+            background-color: #56a1c7;
+        }
+
+        .solTaraf .hizliKayit .alt .btnGiris {
+
+            float: right;
+            width: 100px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            cursor: pointer;
+            background-color: #0094ff;
+            color: white;
+            margin-top: 40px;
+        }
+
+         .solTaraf .hizliKayit .alt .btnGiris:hover {
+            background-color: #56a1c7;
+        }
+
+         .pnlKullanici {
+             width: 250px;
+             cursor: pointer;
+             background-color: white;
+             padding: 15px;
+
+         }
+        .KullaniciCikisi {
+
+             margin-top: 10px;
+             background-color: white;
+             color: black;
+         }
+
+
+       

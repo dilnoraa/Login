@@ -1,0 +1,95 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="ornek.Main" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>İnsan Kaynakları Yönetimi</title>
+    <link href="/Style.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+       <center> 
+       <div class="MainBox">
+       <div class="TopBox"> 
+
+         <div align="center"> 
+            &nbsp;
+             <br />
+        <h7 style="color:white; font-size:150%;"> İNSAN  KAYNAKLARI  UYGULAMASI </h7>
+              </div>
+
+       </div>
+        <div class="LeftBox">
+
+
+
+             <asp:Panel style=" background-color:#56a1c7;" ID="pnlKullanici" runat="server" CssClass="pnlKullanici">
+
+                     <span> Hoş Geldiniz, </span>
+                     <asp:Label style="background-color:#56a1c7;" CssClass="label" ID ="lblKullaniciAdi" runat="server" Text=" "></asp:Label>
+                     <br />
+                  <asp:Label style="background-color:#56a1c7;" CssClass="label" ID ="lblisim" runat="server" Text=" "></asp:Label>
+                     <br />
+                     <asp:Button   ID="btnCikis" CssClass="buttonStyle" runat="server" Text="Çıkış" OnClick="btnCikis_Click" />
+                 </asp:Panel>
+
+
+            <ul>
+
+
+          <li> <a href="İlanlar.aspx">İlanlar</a></li>
+                 &nbsp;
+                <li> <a href="İlanlar.aspx">Eğitimler</a></li>
+                &nbsp;
+                <li> <a href="Linkler.aspx">İlgili Linkler</a></li>
+                &nbsp;
+               
+
+                 <li> <a href="WebForm1.aspx">JavaScript Çalışmaları</a></li>
+                &nbsp;
+
+                <br />
+                <asp:Panel ID="pnlGiris" runat="server">
+                  <asp:Button CssClass="buttonStyle" ID="Button1" runat="server" Text="İş Arayan Girişi" OnClick="btnKayit_Click" />
+                &nbsp;
+                <br />
+                <asp:Button CssClass="buttonStyle" ID="Button2" runat="server" Text="İşveren Girişi" />
+                    </asp:Panel>
+
+                
+
+
+
+
+                
+             <asp:Repeater ID="Repeater1" runat="server">
+                 <ItemTemplate>
+                     
+                 </ItemTemplate>
+
+           </asp:Repeater>
+               
+                 </ul>
+        </div>
+        <div class="ContentBox">
+            <asp:ContentPlaceHolder ID="OrtakAlan" runat="server">
+
+
+    </asp:ContentPlaceHolder>
+
+
+        </div>
+        <div class="BottomBox">
+            
+        </div>
+        <div style="clear:both">
+
+        </div>
+       </div>
+           </center>
+    </form>
+</body>
+</html>

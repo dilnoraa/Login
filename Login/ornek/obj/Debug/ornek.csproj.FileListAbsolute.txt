@@ -1,0 +1,12 @@
+c:\users\pc\documents\visual studio 2013\Projects\ornek\ornek\bin\ornek.dll.config
+c:\users\pc\documents\visual studio 2013\Projects\ornek\ornek\bin\ornek.dll
+c:\users\pc\documents\visual studio 2013\Projects\ornek\ornek\bin\ornek.pdb
+c:\users\pc\documents\visual studio 2013\Projects\ornek\ornek\obj\Debug\ornek.csprojResolveAssemblyReference.cache
+c:\users\pc\documents\visual studio 2013\Projects\ornek\ornek\obj\Debug\ornek.dll
+c:\users\pc\documents\visual studio 2013\Projects\ornek\ornek\obj\Debug\ornek.pdb
+C:\Users\pc\Desktop\Karışık\Yeni klasör\ornek\ornek\bin\ornek.dll.config
+C:\Users\pc\Desktop\Karışık\Yeni klasör\ornek\ornek\bin\ornek.dll
+C:\Users\pc\Desktop\Karışık\Yeni klasör\ornek\ornek\bin\ornek.pdb
+C:\Users\pc\Desktop\Karışık\Yeni klasör\ornek\ornek\obj\Debug\ornek.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\Karışık\Yeni klasör\ornek\ornek\obj\Debug\ornek.dll
+C:\Users\pc\Desktop\Karışık\Yeni klasör\ornek\ornek\obj\Debug\ornek.pdb
